@@ -2,6 +2,7 @@
 #include <string> 
 #include <random>
 #include <fstream> 
+#include <map> 
 
 using std::cout;
 using std::cin;
@@ -10,18 +11,20 @@ using std::string;
 
 class Wordle {
 private:
-    std::string answer; 
+    string answer; 
+    
 public:
 
 }; // Wordle
 
 
 int main() {
-    // bool playing = true; 
+    bool playing = true; 
+    string guess;
 
-    // while (playing) {
-
-    // }
+    while (playing) {
+        cin >> guess;
+    }
 
     return; 
 }
